@@ -1,0 +1,49 @@
+#navbar{
+    height: 90px;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    display: grid;
+    grid-template-columns: 15% 60% 5% 5% 5% 5% 5%;
+    
+}
+#navbar>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#navbar>div>img{
+    height: 80%;
+    width: 75%;
+}
+#search_input{
+    height: 50%;
+    width: 80%;
+    font-size: 20px;
+}
+#search_input+button{
+    width: 12%;
+    height: 54%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: rgb(245, 238, 238);
+    cursor: pointer;
+    border-left: none;
+}
+.fa-solid{
+    font-size: 25px;
+}
+#show_videos{
+    display: grid;
+    margin-top: 15px;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+#contain{
+  height: 350px;
+}
